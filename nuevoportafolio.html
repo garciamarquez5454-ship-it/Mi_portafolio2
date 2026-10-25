@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Mi Portafolio</title>
+<style>
+        
+
+/* Fondo de toda la página */
+body {
+    background-image: url("imagenfondoperfil2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 25px 15px;
+    gap: 15px;
+}
+
+/* Perfil: foto y nombre */
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+
+    background-color: #ccffcc;
+    padding: 25px 200px;
+    border-radius: 100px;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+    width: 140px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+/* Nombre */
+.nombre-grande {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* Barra de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 100%;
+
+background-color: #ccffcc;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: #000066;
+transform: scale(1.25);
+}
+
+
+/* Secciones */
+section {
+    padding: 60px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #fff;
+    text-align: center;
+}
+
+p,li { 
+color:#99ff99;
+font-size: 18px;
+font-family: serif;
+}
+
+ a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Separadores */
+hr {
+    border: 1px solid #ddd;
+}
+
+/* Pie de página */
+footer {
+    background-color: #ddd;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+    
+<header>
+    <div class="perfil">
+        <img src="fotoyo.jpeg" alt="Foto de Arian Pereira" class="foto-perfil">
+        <strong class="nombre-grande">Arian Pereira</strong>
+    </div>
+<br>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#sobre-mi">Sobre mí</a>
+<a href="#servicio">Servicio</a>
+<a href="#portafolio">Portafolio</a>
+<a href="#testimonio">Testimonio</a>
+<a href="#contacto">Contáctame</a>
+</nav>
+</header>
+
+   
+<section id="inicio">
+<h1>Tecnico superior Electricista</h1>
+<p>Manejo básico de PLC</p>
+<p>Estudiante de Ingenieria en Informática</p>
+</section>
+
+<hr>
+
+    
+<section id="sobre-mi">
+<h2>Sobre mí</h2>
+<p>Me apasiona el deporte y la tecnología, desde pequeño aprendí la disciplina a través del deporte y al mismo tiempo a mantener una mentalidad fuerte que me ayudo a tener concentración en momentos de presion. Simultáneamente esas fortalezas fueron la base para tener un buen desenvolvimiento en la resolución de problemas, acertijos y captacion de fallas en sistemas complejos. En la actualidad sigo sumando conocimientos en el área de programación y algoritmos apostando a que son la conexión perfecta con el área de la automatización.      </p>
+</section>
+
+<hr>
+
+    
+<section id="servicio">
+<h2>Servicios</h2>
+
+<ul>
+<li>Mantenimiento preventivo y correctivo de motores electricos</li>
+<li>Instalaciones electricas residenciales, tableros electricos</li>
+<li>Instalacion de sistemas operativos en computadoras</li>
+<li>Reemplazo de piezas de hardware a computadoras</li>
+<li>Servicio de transporte privado</li>
+</ul>
+
+</section>
+
+<hr>
+
+    
+<section id="portafolio">
+<h2>Portafolio</h2>
+<p>Actualmente me encuentro desarrollando un sitio web informativo para la unidad médica Biolife</p>
+</section>
+
+<hr>
+
+    
+<section id="testimonio">
+<h2>Testimonio</h2>
+<p>"Excelente persona. Arian es un profesional íntegro con gran humildad, ética y humanismo"</p>
+</section>
+
+<hr>
+
+   
+
+<section id="contacto">
+    <h2>Contáctame</h2>
+
+    <p>
+        WhatsApp:
+        <a href="https://wa.me/584127624807" target="_blank">
+            Escríbeme por WhatsApp
+        </a>
+    </p>
+
+    <p>
+        Correo electrónico:
+        <a href="mailto:arianpereira05@gmail.com">
+            arianpereira05@gmail.com
+        </a>
+    </p>
+</section>
+
+<footer>
+<h3 style="background-color: rgba(0, 500, 155, 0.443); color: black;">&copy;Arjepear®Todos los derechos reservados.</h3>
+</footer>
+</body>
+
+</html>
